@@ -50,9 +50,11 @@
     </Reference>
     <Reference Include="Microsoft.Xrm.Sdk, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.8.2.0.2\lib\net452\Microsoft.Xrm.Sdk.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="Microsoft.Xrm.Sdk.Async, Version=8.0.4.0, Culture=neutral, PublicKeyToken=a8df12b319ac2dd1, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CrmSdk.CoreAssemblies.Async.8.0.4.0\lib\net452\Microsoft.Xrm.Sdk.Async.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="microsoft.xrm.sdk.workflow">
       <HintPath>..\..\..\..\..\..\..\..\ProgramData\Simpler Software\XrmToolkit\CRM References\8.0\microsoft.xrm.sdk.workflow.dll</HintPath>
@@ -83,6 +85,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>

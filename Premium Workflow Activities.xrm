@@ -1,0 +1,181 @@
+{
+  "_organizations": [
+    {
+      "OrganizationURL": "https://ramcosandbox.ramcoams.org",
+      "HomeRealmUri": "",
+      "OrganizationVersion": "8.2.7.13",
+      "MFAAppId": "",
+      "MFAReturnUrl": "",
+      "ConnectionType": 1,
+      "ConnectionProtocol": 0,
+      "_projects": [
+        {
+          "Name": "Premium Workflow Activities.Plugins.csproj",
+          "NameWithoutExtension": "Premium Workflow Activities.Plugins",
+          "ProjectPreferences": {
+            "JavaScriptsPath": "\\Web",
+            "TypeScriptsPath": "\\Web",
+            "ImagesPath": "\\Web",
+            "WebFilesPath": "\\Web",
+            "CSSPath": "\\Web",
+            "XslPath": "\\Web",
+            "XmlPath": "\\Web",
+            "SilverlightPath": "\\Xap",
+            "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "SitemapPath": "\\Sitemap",
+            "ChartsPath": "\\Charts",
+            "ViewPath": "\\Views",
+            "ProxyClassesPath": "\\ProxyClasses",
+            "ProxyEnumClassesPath": "\\Enums",
+            "EmailTemplatesPath": "\\EmailTemplates",
+            "ProcessesPath": "\\Processes",
+            "EntityMetadataPath": "\\EntityMetadata",
+            "PluginConfigurationsPath": "\\PluginConfigurations",
+            "BaseProxyClassRelativePath": "\\",
+            "CustomAssemblyConfigPath": "\\AssemblyConfig",
+            "JavaScriptMinification": 1,
+            "CSSMinification": 1,
+            "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+            "ResourcesPath": "\\Web",
+            "ServiceContextName": "CrmServiceContext",
+            "EnumsFileName": "OptionSetEnums",
+            "BaseProxyClassFileName": "BaseProxyClass",
+            "AutoRefreshProxyClassesOnMetadataChanges": true,
+            "PluginPath": "",
+            "WorkflowPath": "",
+            "ProxyClassGenerationOptions": 1,
+            "ProxyClassGenerationMethod": 1,
+            "ProxyClassNamingConvention": 1,
+            "ProxyClassNamingPattern": "{0}",
+            "UseStronglyTypeNameForProxyClassRelatedEntities": true
+          },
+          "_files": [
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.BasePluginTypeFile, SS.XrmToolkit.Common",
+              "PluginClassType": 2,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "BaseWorkflow.cs",
+              "Name": "BaseWorkflow.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginTypeFile, SS.XrmToolkit.Common",
+              "PluginClassType": 2,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "baseworktest.cs",
+              "Name": "baseworktest.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginTypeFile, SS.XrmToolkit.Common",
+              "PluginClassType": 2,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "PremiumWorkflowActivities.cs",
+              "Name": "PremiumWorkflowActivities.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "ProjectSettings": {
+            "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginSettings, SS.XrmToolkit.Common",
+            "CopyAttributes": true,
+            "Log": false,
+            "Closed": true,
+            "UseILMerge": true,
+            "ProduceDebugInfo": true,
+            "OverrideCRMReferenceDirectory": true,
+            "CrmReferenceDirectory": "C:\\ProgramData\\Simpler Software\\XrmToolkit\\CRM References\\7.0\\",
+            "ILMergeOuputDirectory": "\\ILMerge",
+            "ILMergeOutputAssemblyName": "Premium Workflow Activities.Plugins.dll",
+            "OverrideTargetFrameworkLocation": true,
+            "TargetFrameworkLocation": "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.6.2",
+            "AllowDuplicateTypes": false,
+            "AllowDuplicateResources": false,
+            "ILMergeOutputAssemblyFileName": "\\ILMerge\\Premium Workflow Activities.Plugins.dll",
+            "DuplicateTypes": [],
+            "AssemblyReferences": [
+              {
+                "Name": "SS.Crm.Linq",
+                "IncludeInILMerge": true
+              },
+              {
+                "Name": "microsoft.identitymodel",
+                "IncludeInILMerge": true
+              }
+            ],
+            "ReferenceDirectories": [],
+            "PluginAssembly": {
+              "_pluginTypes": [],
+              "LogicalName": "pluginassembly",
+              "Id": "7250ebef-0ed1-ea11-9c3f-00155d080800",
+              "Attributes": [
+                {
+                  "Key": "isolationmode",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+                },
+                {
+                  "Key": "sourcetype",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                },
+                {
+                  "Key": "customizationlevel",
+                  "Value": {"$type":"System.Int32","$value":1}
+                }
+              ],
+              "FormattedValues": [],
+              "RelatedEntities": [],
+              "KeyAttributes": []
+            }
+          }
+        }
+      ],
+      "OrganizationName": "RAMCOSANDBOX",
+      "OrganizationDisplayName": "RAMCOSANDBOX",
+      "UserFriendlyName": "https://ramcosandbox.ramcoams.org",
+      "SelectedSolution": {
+        "UniqueName": "PremiumWorkflowActivities",
+        "Id": "abe4389c-d2d0-ea11-9c3f-00155d080800",
+        "LogicalName": "solution",
+        "Name": "Premium Workflow Activities"
+      },
+      "OrganizationPreferences": {
+        "JavaScriptsPath": "\\Web",
+        "TypeScriptsPath": "\\Web",
+        "ImagesPath": "\\Web",
+        "WebFilesPath": "\\Web",
+        "CSSPath": "\\Web",
+        "XslPath": "\\Web",
+        "XmlPath": "\\Web",
+        "SilverlightPath": "\\Xap",
+        "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "SitemapPath": "\\Sitemap",
+        "ChartsPath": "\\Charts",
+        "ViewPath": "\\Views",
+        "ProxyClassesPath": "\\ProxyClasses",
+        "ProxyEnumClassesPath": "\\Enums",
+        "EmailTemplatesPath": "\\EmailTemplates",
+        "ProcessesPath": "\\Processes",
+        "EntityMetadataPath": "\\EntityMetadata",
+        "PluginConfigurationsPath": "\\PluginConfigurations",
+        "BaseProxyClassRelativePath": "\\",
+        "CustomAssemblyConfigPath": "\\AssemblyConfig",
+        "JavaScriptMinification": 1,
+        "CSSMinification": 1,
+        "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+        "ResourcesPath": "\\Web",
+        "ServiceContextName": "CrmServiceContext",
+        "EnumsFileName": "OptionSetEnums",
+        "BaseProxyClassFileName": "BaseProxyClass",
+        "AutoRefreshProxyClassesOnMetadataChanges": true,
+        "PluginPath": "",
+        "WorkflowPath": "",
+        "ProxyClassGenerationOptions": 4,
+        "ProxyClassGenerationMethod": 1,
+        "ProxyClassNamingConvention": 1,
+        "ProxyClassNamingPattern": "{0}",
+        "UseStronglyTypeNameForProxyClassRelatedEntities": true
+      }
+    }
+  ]
+}
